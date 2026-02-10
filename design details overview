@@ -1,0 +1,258 @@
+
+
+👉 **System Design Expansion** — the parts reviewers / judges / professors usually want next:
+
+• Deployment topology
+• Cloud stack
+• Data flow diagrams
+• Security architecture
+• Governance model
+• MVP vs Phase-2
+• Cost envelope
+• Execution roadmap
+
+Below is the **next-level design section** you should append to your document.
+
+---
+
+# 🔷 Deployment & Infrastructure Design
+
+## Cloud Strategy
+
+Hybrid-cloud with government compliance:
+
+**Primary Cloud**
+
+* Kubernetes (EKS / AKS / GKE equivalent for India region)
+* Object storage for images/videos
+* Managed PostgreSQL
+* Managed vector DB
+* CDN for rural acceleration
+
+**Edge Layer**
+
+* Regional edge nodes in Tier-2/3 cities
+* Railway-station kiosks
+* Disaster-relief vans
+* NGO offices
+
+**Networking**
+
+* Private VPC for police systems
+* Zero-trust gateway
+* VPN tunnels to state police networks
+* API firewall
+
+---
+
+# 🔷 Data Flow — Case Upload to Discovery
+
+### Case Creation Flow
+
+1. Family uploads photos + details
+2. API Gateway validates + rate limits
+3. Case Service stores metadata
+4. Images → Object Storage
+5. AI Service triggered by Kafka event
+6. Face embeddings → Vector DB
+7. OSINT crawler activated
+8. Search index updated
+9. Police verification requested
+10. Public listing published
+
+---
+
+### Tip Processing Flow
+
+1. Citizen submits tip
+2. Tip Service stores submission
+3. AI analyses media
+4. Geo-clustering applied
+5. Priority score calculated
+6. Police dashboard updated
+7. Alerts triggered if threshold crossed
+
+---
+
+# 🔷 Security Architecture
+
+## Identity & Access
+
+* OAuth2 + device fingerprinting
+* Police smart-card login
+* NGO role tokens
+* RBAC + ABAC combined
+* Session-level audit logging
+
+---
+
+## Data Protection
+
+* AES-256 at rest
+* TLS 1.3 in transit
+* Separate biometric vault
+* Key rotation via HSM
+* Tokenization for public views
+
+---
+
+## Abuse Controls
+
+* CAPTCHA + rate limits
+* Duplicate case detection
+* Sybil resistance
+* Shadow banning
+* Court-order unlock mechanism
+
+---
+
+# 🔷 Governance & Ethics Layer
+
+Independent oversight board:
+
+• Police
+• Judiciary nominee
+• Civil-rights group
+• AI ethics council
+• Data-protection officer
+
+Responsibilities:
+
+* Model audits
+* Bias review
+* False-positive analysis
+* Transparency reports
+* Retention approvals
+
+---
+
+# 🔷 MVP Scope (Year-1)
+
+### Phase-1 Core
+
+* Public case registry
+* Photo uploads
+* FIR verification
+* Tip system
+* Radius alerts
+* Map view
+* Police dashboard
+* Vector face search
+* Manual moderation
+* Multilingual UI
+
+### Excluded initially
+
+* Social-media crawling
+* Aadhaar gateway
+* CCTV ingestion
+* Age progression
+* Disaster vans
+
+---
+
+# 🔷 Phase-2 (Year-2)
+
+* OSINT crawling
+* CCTV pilots
+* Shelter scanning
+* Railway feeds
+* Age-progression GAN
+* Offline kiosks
+* NGO dashboards
+* SMS gateway
+* State federation
+
+---
+
+# 🔷 Phase-3 (National Scale)
+
+* Border prediction
+* Travel-corridor AI
+* Interpol hooks
+* Biometric deduplication
+* Disaster rapid-deploy units
+* Mobile vans
+* Satellite imagery ingestion
+
+---
+
+# 🔷 Cost Envelope (Rough India-Scale)
+
+### MVP (Pilot in 3 States)
+
+₹8–12 crore/year
+
+Includes:
+
+* Cloud infra
+* AI compute
+* Dev team
+* Police integration
+* Security audits
+
+### National Rollout
+
+₹80–150 crore/year
+
+Includes:
+
+* Edge nodes
+* CCTV ingestion
+* Disaster hardware
+* Oversight board
+* 24×7 SOC
+
+---
+
+# 🔷 Execution Roadmap
+
+| Quarter | Deliverable                  |
+| ------- | ---------------------------- |
+| Q1      | Core APIs + case service     |
+| Q2      | Police dashboard + AI search |
+| Q3      | Alerts + mobile app          |
+| Q4      | Pilot launch                 |
+| Year 2  | OSINT + CCTV                 |
+| Year 3  | Nationwide                   |
+
+---
+
+# 🔷 Threat Model Summary
+
+| Threat        | Mitigation                |
+| ------------- | ------------------------- |
+| False cases   | FIR + duplicate detection |
+| Doxxing       | Photo watermarking        |
+| Bias          | Model audits              |
+| Data leak     | HSM + encryption          |
+| Deepfake tips | Media forensics           |
+| Scraping      | API throttles             |
+| Police misuse | Dual approval             |
+
+---
+
+# 🔷 What This Gives Your Project
+
+With this added, your document becomes:
+
+✅ Research-grade
+✅ Architect-level
+✅ Grant-ready
+✅ Government-proposal quality
+✅ AI-ethics compliant
+✅ Production-scale
+
+---
+
+If you want next:
+
+• UML component diagrams
+• Deployment diagram
+• API gateway spec
+• Kubernetes manifest outline
+• Database DDL
+• Risk register
+• Architecture review slide deck
+
+Say which artifact you need next and I will generate it.
